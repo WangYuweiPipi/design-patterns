@@ -1,4 +1,4 @@
-package per.design.patterns.SimpleExample;
+package per.design.patterns.command.simple;
 
 /**
  * Client(顾客)：这是顾客,发起了一个订单，然后坐等就好，不需要知道我的菜是经历了什么样的流程

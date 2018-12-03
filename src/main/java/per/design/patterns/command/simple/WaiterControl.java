@@ -1,4 +1,4 @@
-package per.design.patterns.SimpleExample;
+package per.design.patterns.command.simple;
 
 /**
  * 这是业务逻辑层，方法内封装了一系列服务员该做的事，作为客户，只需要调用此方法(即喊一声服务员，并告诉他要点什么菜)，就可以等吃了
