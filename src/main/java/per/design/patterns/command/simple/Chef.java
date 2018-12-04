@@ -6,8 +6,7 @@ package per.design.patterns.command.simple;
 
 public class Chef {
 
-
     public void hamburger() {
-        System.out.println("这是我做的汉堡，请享用……");
+        System.out.println("This is a hamburger");
     }
 }
