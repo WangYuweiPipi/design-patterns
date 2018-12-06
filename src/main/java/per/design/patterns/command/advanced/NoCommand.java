@@ -6,5 +6,12 @@ package per.design.patterns.command.advanced;
 public class NoCommand implements Command {
 
     @Override
-    public void execute() {}
+    public void execute() {
+
+    }
+
+    @Override
+    public void undo() {
+
+    }
 }

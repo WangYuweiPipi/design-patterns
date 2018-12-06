@@ -7,6 +7,7 @@ public class Invoker {
 
     private Command[] commandOn; // 开
     private Command[] commandOff; // 关
+    private Command commandUndo; //撤回
 
     public Invoker() {
         /* 实例化此开关数组 */
@@ -19,6 +20,7 @@ public class Invoker {
             commandOn[i] = noCommand;
             commandOff[i] = noCommand;
         }
+        commandUndo = noCommand;
     }
 
     public void setCommand(int index, Command commandOn, Command commandOff) {
@@ -29,9 +31,15 @@ public class Invoker {
 
     public void buttonPushedOn(int index) {
         commandOn[index].execute();
+        commandUndo = commandOn[index]; //记录操作按钮
     }
 
     public void buttonPushedOff(int index) {
         commandOff[index].execute();
+        commandUndo = commandOff[index];
+    }
+
+    public void buttonPushedUndo() {
+        commandUndo.undo();
     }
 }
