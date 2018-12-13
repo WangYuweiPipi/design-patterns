@@ -1,5 +1,8 @@
 package per.design.patterns.command.advanced;
 
+/**
+ *
+ */
 public class KitchenLight implements Light {
 
     @Override

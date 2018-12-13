@@ -1,6 +1,8 @@
 package per.design.patterns.command.advanced;
 
-
+/**
+ * 具体调用实例
+ */
 public class InvokerControl {
 
     public void run() {

@@ -1,7 +1,7 @@
 package per.design.patterns.command.advanced;
 
 /**
- *
+ * 调用者
  */
 public class Invoker {
 
