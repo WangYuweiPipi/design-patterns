@@ -2,7 +2,7 @@ package per.design.patterns.command.advanced;
 
 
 /**
- *
+ * 具体命令操作
  */
 public class LightOnCommand implements Command {
 
