@@ -11,11 +11,10 @@
 - Invoker - 调用者
 - Command - 抽象命令类
 - ConcreteCommand - 具体命令类
-
-
-
 <!-- 图 -->
-## 餐厅例子（simple）
+
+## 实例
+#### 餐厅例子 - simple
 论顾客、服务员、订单和厨师之间的运作模式  
 
 - 顾客 - Client
@@ -24,7 +23,7 @@
 - 订单 - Command
 - 汉堡订单 - ConcredteCommand
 
-## 开关灯遥控器例子（advanced）
+#### 开关灯遥控器例子 - advanced
 
 ## FAQ
 - 命令模式的设计如何支持请求调用者和请求接受者之间的节藕？
