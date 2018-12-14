@@ -6,16 +6,25 @@
 命令模式可将“动作请求者(client)“从”动作执行者(receiver)”对象中节藕。
 
 ## 结构模式
+- Client - 客户类
+- Receiver - 接受者类
+- Invoker - 调用者
+- Command - 抽象命令类
+- ConcreteCommand - 具体命令类
+
+
 
 <!-- 图 -->
+## 餐厅例子（simple）
+论顾客、服务员、订单和厨师之间的运作模式  
 
-## simple(package) - 餐厅例子
-	论顾客、服务员、订单和厨师之间的运作模式
-顾客 - 
+- 顾客 - Client
+- 厨师 - Receiver
+- 服务员 - Invoker
+- 订单 - Command
+- 汉堡订单 - ConcredteCommand
 
-
-
-## advanced(package) - 开关灯遥控器例子
+## 开关灯遥控器例子（advanced）
 
 ## FAQ
 - 命令模式的设计如何支持请求调用者和请求接受者之间的节藕？
