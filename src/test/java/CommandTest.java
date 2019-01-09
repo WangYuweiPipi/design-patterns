@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class CommandTest {
 
@@ -7,6 +7,14 @@ public class CommandTest {
         Thread thread = new Thread(myRunnable);
         thread.run();
         myRunnable.method();
+
+        Map<String, Object> map = new HashMap<>();
+
+        Map<String, Object> map1 = new Hashtable<>();
+
+        LinkedList<String> linkedList = new LinkedList<>();
+
+        ArrayList<String> list= new ArrayList<>();
 
     }
 

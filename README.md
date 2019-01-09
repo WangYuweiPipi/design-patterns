@@ -3,6 +3,7 @@
 
 ## 目录
 - command - 命令模式
+- observer - 观察者模式
 - stategy - 策略模式
 
 #### ps
