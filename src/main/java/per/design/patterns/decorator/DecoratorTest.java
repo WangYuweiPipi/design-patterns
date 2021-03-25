@@ -39,7 +39,7 @@ class BatterCakeSubject extends Cake {
 }
 
 /**
- * 装饰父类 - 煎饼果子
+ * 装饰类 - 煎饼果子
  */
 class BatterCakeDecorator extends Cake {
 
